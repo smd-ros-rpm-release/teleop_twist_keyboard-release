@@ -1,0 +1,12 @@
+Source: ros-hydro-teleop-twist-keyboard
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: http://wiki.ros.org/teleop_twist_keyboard
+Standards-Version: 3.9.2
+
+Package: ros-hydro-teleop-twist-keyboard
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-geometry-msgs, ros-hydro-rospy
+Description: The teleop_twist_keyboard package
