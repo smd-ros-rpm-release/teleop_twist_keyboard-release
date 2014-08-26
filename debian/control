@@ -1,0 +1,12 @@
+Source: ros-indigo-teleop-twist-keyboard
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/teleop_twist_keyboard
+Standards-Version: 3.9.2
+
+Package: ros-indigo-teleop-twist-keyboard
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-geometry-msgs, ros-indigo-rospy
+Description: The teleop_twist_keyboard package
